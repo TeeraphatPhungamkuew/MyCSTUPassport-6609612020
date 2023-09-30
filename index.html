@@ -9,16 +9,17 @@
 
 <body bgcolor="#b5b5d0">
    <style>
-      /* button {
+       button {
          background-color: antiquewhite;
          color: black;
          border: none;
-         height: 40px;
-         width: 100px;
+         height: auto;
+         width: auto;
          border-radius: 10px;
          cursor: pointer;
          margin-left: 20px;
-      } */
+         padding: 20px;
+      } 
 
       .history {
          font-family: 'Courier New', Courier, monospace;
@@ -79,36 +80,36 @@
          text-align: center;
       }
 
-      .nav-bar {
-         padding: 0rem 2rem;
+      .head {
+         padding: 1rem 2rem;
          width: 100%;
-         z-index: 40;
+         z-index: 4;
          display: flex;
-         position: fixed;
-         top: 0;
-         background-color: rgb(196, 250, 242);
-         align-items: center;
-         justify-content: space-between;
+         /* position: fixed; */
+         top: 10rem;
+         /* background-color: rgb(196, 250, 242); */
+         margin :left;
+         font-size: 30px;
 
-         .title {
-            font-size: 1.75rem;
-
-            &:hover {
-               color: var(--primary-color);
-            }
-         }
-
-         .sub-navbar>a {
+         .sub-head>a {
             color: var(--sub-navbar-hint-color);
-            margin: 0 0.5rem;
+            margin: 5rem 5px 0.5px 5px;
+            margin :right;
+            
          }
 
-         .sub-navbar>a:hover {
+         .sub-head>a:hover {
             color: var(--primary-color);
          }
       }
+      .topic
+      {
+         font-size: 24px;
+         margin:0px 320px ;
+         margin: center;
+      }
    </style>
-   < <!-- <span class="button">
+    <!-- <span class="button">
       <button a href="https://teeraphatphungamkuew.github.io/MyCSTUPassport-6609612020/index.html"> Homepage </button>
       <button a href="https://teeraphatphungamkuew.github.io/MyCSTUPassport-6609612020/html/myAdvisor.html"> My advisor
       </button>
@@ -116,21 +117,19 @@
          Activities </button>
       </span>
       -->
-      <nav class="nav-bar">
-         <a class="title" href="index.html">Homepage</a>
-         <div class="sub-navbar">
-            <a href="html/myAdvisor.html">My Advisor</a>
-            <a href="html/myActivity.html">My Activities</a>
-         </div>
-      </nav>
-
-
+      <nav class="head">
+         <button><a href="index.html">Homepage</a></button>
+         
       <h1 class="topic">
          <center><i>
                My CSTU Passport
             </i></center>
       </h1>
-
+      <div class="sub-head">
+         <button><a href="html/myAdvisor.html">My Advisor</a></button>
+         <button><a href="html/myActivity.html">My Activity</a></button>
+      </div>
+      </nav>
       <hr><!--เส้นคั่น-->
 
       <img class="picture" src="/image/mypic.jpg" />
