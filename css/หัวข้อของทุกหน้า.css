@@ -31,6 +31,7 @@ button {
 
  .head {
     padding: 10%;
+    position: center;
  }
  .history {
     font-family: 'Courier New', Courier, monospace;
@@ -109,6 +110,7 @@ button {
     margin-top: 30px;
     margin-bottom: 30px;
     margin: center;
+    text-align: center;
  }
 /* for talaphone */
 @media only screen and (min-width: 600px){ 
