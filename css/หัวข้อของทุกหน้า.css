@@ -1,100 +1,224 @@
 button {
-    background-color: antiquewhite;
-    color: black;
-    border: none;
-    height: auto;
-    width: auto;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-left: 20px;
-    margin-top: 20px;
-    padding: 20px;
- } 
-
- .head {
-    padding: 10%;
-    position: center;
- }
- .history {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    font-style: italic;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 15px;
- }
-
- .fullname {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 6px;
- }
-
- .myself {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 17px;
-    text-align: center;
-    margin-top: 4px;
- }
-
- .introduce {
-    text-align: center;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 25px;
-    margin-top: 50px;
-    margin-bottom: 30px;
- }
-
- .picture {
-    width: 300px;
-    height: 350px;
-    object-fit: contain;
-    object-position: center;
-    border-width: 20px;
-    border-radius: 60%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
- }
-
- .clip {
-    width: 50;
-    height: 100;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20%;
-    cursor: pointer;
- }
-
- .movie {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 8px;
- }
-
- .namemovie {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 6px;
- }
-
- .topic
- {
-    font-size: 32px;
-    margin-bottom: 30px;
-    margin: center;
-    text-align: center;
- }
-/* for talaphone */
-@media only screen and (min-width: 600px){ 
-   
+   background-color: antiquewhite;
+   color: black;
+   border: none;
+   height: auto;
+   width: auto;
+   border-radius: 10px;
+   cursor: pointer;
+   margin-left: 20px;
+   margin-top: 20px;
+   padding: 20px;
 }
- 
+
+.head {
+   padding: 0.5%;
+   position: center;
+}
+
+.history {
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 25px;
+   font-style: italic;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 15px;
+}
+
+.fullname {
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 6px;
+}
+
+.myself {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 17px;
+   text-align: center;
+   margin-top: 4px;
+}
+
+.introduce {
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 25px;
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+
+.picture {
+   width: 300px;
+   height: 350px;
+   object-fit: contain;
+   object-position: center;
+   border-width: 20px;
+   border-radius: 60%;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.clip {
+   width: 50;
+   height: 100;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20%;
+   cursor: pointer;
+}
+
+.movie {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 18px;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 8px;
+}
+
+.namemovie {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 16px;
+   text-align: center;
+   margin-top: 8px;
+   margin-bottom: 6px;
+}
+
+.topic {
+   font-size: 32px;
+   margin-bottom: 30px;
+   margin: center;
+   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+   /* for talaphone */
+   .topic {
+      font-size: 5rem;
+   }
+
+   .picture {
+      width: 20rem;
+      height: auto;
+   }
+
+   .history {
+      font-size: 1.2rem;
+      margin-top: 3rem;
+   }
+
+   .fullname {
+      font-size: 0.8rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.4rem;
+   }
+
+   .myself {
+      font-size: 0.8rem;
+      margin-top: 0.3rem;
+      margin-bottom: 0.3rem;
+   }
+
+   .introduce {
+      font-size: 5rem;
+   }
+
+   .movie {
+      font-size: 1rem;
+   }
+
+   .namemovie {
+      font-size: 0.8rem;
+   }
+
+   .clip {
+      width: 15rem;
+      height: auto;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+
+   /* For Ipad: */
+   .topic {
+      font-size: 5rem;
+   }
+
+   .picture {
+      width: 20rem;
+      height: auto;
+   }
+
+   .history {
+      font-size: 3rem;
+   }
+
+   .fullname {
+      font-size: 2.4rem;
+   }
+
+   .myself {
+      font-size: 2.4rem;
+   }
+
+   .introduce {
+      font-size: 5rem;
+   }
+
+   .movie {
+      font-size: 3rem;
+   }
+
+   .namemovie {
+      font-size: 2.4rem;
+   }
+
+   .clip {
+      width: 20rem;
+      height: auto;
+   }
+}
+
+@media only screen and (min-width: 1024px) {
+   .topic {
+      font-size: 3rem;
+   }
+
+   .picture {
+      width: 15rem;
+      height: auto;
+   }
+
+   .history {
+      font-size: 2rem;
+   }
+
+   .fullname {
+      font-size: 1.5rem;
+   }
+
+   .myself {
+      font-size: 1.3rem;
+   }
+
+   .introduce {
+      font-size: 3rem;
+   }
+
+   .movie {
+      font-size: 2rem;
+   }
+
+   .namemovie {
+      font-size: 1.2rem;
+   }
+
+   .clip {
+      width: 12rem;
+      height: auto;
+   }
+}
